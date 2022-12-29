@@ -1,7 +1,7 @@
 import pymongo
 
 # Connecting to mongodb
-client = pymongo.MongoClient("mongodb+srv://crashoverload:manu2000@priyank.quin4el.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://crashoverload:password@priyank.quin4el.mongodb.net/?retryWrites=true&w=majority")
 
 # testing connection
 db = client.test
